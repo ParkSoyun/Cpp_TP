@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  ClassLibrary1.cpp
+  코드를 생성하고 있습니다...
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL 모듈이 발견되었습니다. MSIL에 증분 링크를 사용할 수 없습니다. 전체 링크를 수행하고 있습니다.
+  ClassLibrary1.vcxproj -> C:\Users\ParkSoyun\Source\Repos\GUI_Chat\Debug\ClassLibrary1.dll
