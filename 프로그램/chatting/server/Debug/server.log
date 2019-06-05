@@ -1,0 +1,17 @@
+﻿  App.cpp
+  ChattingServer.cpp
+c:\users\parksoyun\source\repos\chatting\server\chattingserver.cpp(17): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 'inet_addr' 선언을 참조하십시오.
+  CThread.cpp
+  server.cpp
+  User.cpp
+c:\users\parksoyun\source\repos\chatting\server\user.cpp(20): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 'inet_ntoa' 선언을 참조하십시오.
+c:\users\parksoyun\source\repos\chatting\server\user.cpp(42): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+c:\users\parksoyun\source\repos\chatting\server\user.cpp(74): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: 'strncpy' 선언을 참조하십시오.
+c:\users\parksoyun\source\repos\chatting\server\user.cpp(84): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+c:\users\parksoyun\source\repos\chatting\server\user.cpp(94): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: 'strncpy' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  server.vcxproj -> C:\Users\ParkSoyun\Source\Repos\chatting\Debug\server.exe
