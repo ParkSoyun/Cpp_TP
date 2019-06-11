@@ -1,0 +1,18 @@
+﻿  App.cpp
+c:\users\parksoyun\source\repos\chatting\client\app.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+  ChattingClient.cpp
+c:\users\parksoyun\source\repos\chatting\client\chattingclient.cpp(20): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 'inet_addr' 선언을 참조하십시오.
+c:\users\parksoyun\source\repos\chatting\client\chattingclient.cpp(65): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: 'strncpy' 선언을 참조하십시오.
+c:\users\parksoyun\source\repos\chatting\client\chattingclient.cpp(75): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: 'strncpy' 선언을 참조하십시오.
+c:\users\parksoyun\source\repos\chatting\client\chattingclient.cpp(114): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+c:\users\parksoyun\source\repos\chatting\client\chattingclient.cpp(123): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 'stricmp' 선언을 참조하십시오.
+c:\users\parksoyun\source\repos\chatting\client\chattingclient.cpp(146): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+  client.cpp
+  CThread.cpp
+  코드를 생성하고 있습니다...
+  client.vcxproj -> C:\Users\ParkSoyun\Source\Repos\chatting\Debug\client.exe

@@ -2,6 +2,8 @@
 #include "ChattingClient.h"
 #include "App.h"
 
+#pragma comment(lib, "ws2_32.lib")
+
 const int ChattingClient::MAXSTRLEN = 255;
 
 ChattingClient::ChattingClient(const char *ip, int port) {
@@ -101,11 +103,14 @@ DWORD SendThread::run(void) {
 	while (true){
 		try {
 			cin >> buf;
+			cout << "\b\r³ª - ";
+
 			if (exitUser(buf)){
 				result = 0;
 				throw ChatException(2100);
 			}
 			sendMessage(this->client_socket, buf);
+
 		} catch (ChatException e){
 			closesocket(this->client_socket);
 			break;
@@ -137,6 +142,7 @@ DWORD RecvThread::run(void) {
 		try {
 			recvMessage(this->client_socket, buf);
 			cout << buf << endl;
+
 		} catch (ChatException e){
 			closesocket(this->client_socket);
 			break;
